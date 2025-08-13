@@ -1,9 +1,49 @@
 body {
-  direction: rtl; /* للغة العربية */
+  direction: rtl;
   font-family: 'Tahoma', sans-serif;
   background-color: #f9f9f9;
+  line-height: 1.6;
 }
 
-h1, h2 {
+h1, h2, h3 {
   color: #ed68ba;
 }
+
+
+.navbar .custom-link {
+  color: #ed68ba;       
+  background: none;      
+  font-size: 18px;       
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.navbar .custom-link:hover,
+.navbar .custom-link.active {
+  color: #ff85d0;         
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+a {
+  text-decoration: none;
+  color: #ed68ba;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
